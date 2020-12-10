@@ -1,3 +1,4 @@
+// lavet af Lasse Winther, dette er menu-bar + burger menu
 //array med menu objekterne
 let menu1 = [
   [forside = {href:"index.html", buttontext:"Forside"}],
