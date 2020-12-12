@@ -1,0 +1,135 @@
+:root {
+    --roed: #A92D23;
+    --blaa: #32BFC0;
+    --aeg:#f2e7c4;
+    --mblaa:#102a4b;
+    --lroed:#d9a3a3;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Khand", Times, serif;
+    color: var(--mblaa);
+    
+  }
+  
+  .broedtext{
+      font-family: "lato";
+  }
+.grid-container{
+  
+    display: grid;
+    grid-template-columns: repeat(14, [col-start] 1fr);
+    gap: 0px 0px;
+    font-size: 17px;
+  }
+  .knap {
+    background-color: var(--blaa);
+  text-decoration: none;
+  padding: 1% 4%;
+  border-radius: 14em;
+}
+  
+  .main-head{
+   background-image: url(/img/tristfyr.png);
+   background-size: cover;
+
+    grid-column: col-start 1/ span 14;
+    text-align: center;
+    padding-top:15% ;
+    padding-bottom: 5%;
+    
+
+  }
+  
+  .content {
+    display: grid;
+    background-color:var(--aeg) ;
+    grid-column: col-start 1 / span 12 ;
+    grid-row: 2
+  
+
+}
+.velkomsttekst{
+    justify-self:center ;
+    width: 300px;
+    font-family: 'Source Sans Pro';
+}
+ .kontaktknap{
+    
+    font-size: 24px;
+    color: var(--mblaa);
+    margin-bottom:20% ;
+}
+
+
+ .vside{
+     width: 20%;
+     justify-self:start ;
+    margin: 2%;
+
+}
+.hside{
+    
+    
+    justify-self:end ;
+    float: right;
+    background-color:var(--aeg) ;
+    
+   
+    
+
+}
+.hside article{
+    
+    padding: 10%;
+    font-size: 14px;
+    background-image: url(/img/Cirkel\ med\ maske.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    
+}
+.disclaimer{
+    font-family: 'Source Sans Pro';
+    /* width: 70%; */
+   
+   
+    
+}
+
+.det-sker{
+    
+    background-color:var(--roed) ;
+    grid-column: col-start 1 / span 14 ;
+    grid-row: 3;
+    /* align-self: center; */
+    text-align: center;
+    padding-bottom:3%;
+}
+
+.det-sker a{
+    margin-right: 3%;
+    margin-left: 3%;
+    
+}
+
+.vi-moedes{
+    
+    
+    grid-column: col-start 1 / span 14 ;
+    grid-row: 4/5;
+    align-self: center;
+    text-align: center;
+    background-image: url(/img/vi\ moedes.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vi-moedes h2{
+    margin-top: 20%;
+}
+
+
