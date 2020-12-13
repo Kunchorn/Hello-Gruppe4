@@ -23,7 +23,7 @@
   .grid-container {
     /* background-color: var(--aeg); */
     display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-columns: repeat(14, [col-start] 1fr);
     
     gap: 0px 0px;
     background-color: var(--aeg);
