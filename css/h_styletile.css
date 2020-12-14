@@ -1,6 +1,12 @@
+html {
+  background-color: #F2E7C4;
+}
+
+
 
 .contactus ul{
     padding: 0;
+    margin-left: 33%;
   }
   
   .contactus li{
@@ -44,11 +50,13 @@
     font-size: 1.3em;
     font-weight: 500;
     font-family: 'Questrial', sans-serif;
+    margin-bottom: 2px;
   }
   .smallfat {
     font-size: 0.9em;
     font-weight: 200;
     font-family: 'Questrial', sans-serif;
+    margin-bottom: 20px;
 
   }
  
@@ -74,7 +82,7 @@
     .contactus textarea {
       font-family: 'Questrial', sans-serif;
       width: 450px;
-      height: 2.3em;
+      height: 5em;
       text-align: center;
       border-color: black;
       border-width: 2px; 
@@ -87,7 +95,7 @@
       
     .contact-form button {
       font-family: 'Questrial', sans-serif;
-      width: 460px;
+      width: 450px;
       height: 2.3em;
       text-align: center;
       outline: none;
