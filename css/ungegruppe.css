@@ -1,0 +1,121 @@
+.grid-container {
+ 
+
+  background-color: var(--blaa);
+}
+
+.knap {
+  background-color: var(--blaa);
+  text-decoration: none;
+  padding: 2% 8%;
+  border-radius: 14em;
+  font-size: 20px;
+}
+
+.header {
+  height: 500px;
+  grid-column: col-start 4 / span 8;
+  background-color: var(--blaa);
+  margin-bottom: 10%;
+  
+ 
+}
+
+
+.skilt{
+    
+    background-image: url(/img/Ungegruppe\ Skilt.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    background-color: var(--blaa);
+    text-align: center;
+
+}
+
+.skilt h1{
+    padding:5% 45%;
+    color: var(--roed);
+    font-size:6vw ;
+    margin-bottom: 5%;
+}
+
+/* ROW 2 */
+.velkommen{
+    grid-column: col-start 4 / span 8;
+    grid-row: 2;
+ 
+  margin: 5%;
+  display: flex;
+      flex-direction: row;
+      
+      justify-content: space-between;
+      flex-wrap: wrap; 
+}
+  
+.tekstbox{
+   width: 40%;
+   
+    font-size:17px ;
+    
+  
+}
+.bobler{
+    grid-column: col-start 12 / span 1;
+    grid-row: 2;
+    
+    width:144px ;
+}
+/* ROW3 */
+.venner{
+    grid-column: col-start 4 / span 8;
+    grid-row: 3;
+    text-align: center;
+    height: 1000px;
+    
+}
+.venner-box{
+    background-image: url(/img/venner.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+.billed-text{
+    font-size: 20px;
+   
+}
+
+/* ROW4 */
+.footer{
+    grid-column: col-start 1 / span 14;
+    grid-row: 5;
+    background-color: var(--mblaa);
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: stretch;
+      padding-top:2% ;
+     
+    
+    }
+    .footer p{
+      color: var(--aeg);
+    }
+    .footerbox strong{
+      color: var(--aeg);
+    }
+  
+     .footerbox ul{
+      
+        list-style-type: none;
+       /*  margin: 0;
+        padding: 0; */
+        
+    }
+    .footerbox li {
+      
+        float: left;
+        margin: 2%;
+      
+    }

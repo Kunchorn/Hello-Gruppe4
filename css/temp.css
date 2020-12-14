@@ -1,0 +1,44 @@
+/* Dette er en backup CSS fra 14-12 */
+
+
+:root {
+    --roed: #A92D23;
+    --blaa: #32BFC0;
+    --aeg:#f2e7c4;
+    --mblaa:#102a4b;
+    --lroed:#d9a3a3;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Khand", Times, serif;
+    color: var(--mblaa);
+    
+    
+  }
+  
+  .broedtext{
+      font-family: "lato";
+  }
+  .grid-container {
+    /* background-color: var(--aeg); */
+    display: grid;
+    grid-template-columns: repeat(14, [col-start] 1fr);
+    
+    gap: 0px 0px;
+    background-color: var(--aeg);
+   
+  }
+
+  .knap {
+    background-color: var(--blaa);
+  text-decoration: none;
+  padding: 2% 8%;
+  border-radius: 14em;
+  font-size: 20px;
+  
+}
+ 
