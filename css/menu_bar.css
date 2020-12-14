@@ -37,6 +37,7 @@ nav .menu-bar{
 }
 .menu-bar li{
   white-space: nowrap;
+ 
 }
 
 nav li a{
@@ -60,6 +61,7 @@ main > div{
   width: 1110px;
   margin: auto;
 }
+
 
 .menu-bar li:hover{
   background-color: var(--sand);

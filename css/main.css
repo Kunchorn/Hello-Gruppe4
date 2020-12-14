@@ -21,14 +21,32 @@
       font-family: "lato";
   }
   .grid-container {
-    /* background-color: var(--aeg); */
     display: grid;
     grid-template-columns: repeat(14, [col-start] 1fr);
+ 
     
-    gap: 0px 0px;
+    gap: 20px;
     background-color: var(--aeg);
    
   }
+  .grid-container > * {
+    grid-column: col-start / span 16;
+  }
+  @media (min-width: 500px) {
+  
+    .vside {
+      grid-column: col-start / span 3;
+      grid-row: 2;
+    }
+    .hside {
+      grid-column: col-start / span 3;
+      grid-row:3;
+    }
+    .footer {
+      grid-column: col-start 4 / span 9;
+    }
+
+
 
   .knap {
     background-color: var(--blaa);

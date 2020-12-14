@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu_bar.css">
     <script src="js/menu_bar.js" defer></script>
     <title>Stoppestedet</title>
 </head>
 <body>
+    <nav>
+        <ul class="menu-bar" id="menuBar1"> <!--menu-baren bliver lavet fra mb_js.js, fra menu1-->
+        </ul>
+        <a href="index.html"><img src="img/stoppestedetLogo.png" alt="stoppestedet_logo"></a>
+        <ul class="menu-bar" id="menuBar2"> <!--menu-baren bliver lavet fra mb_js.js, fra menu2-->
+        </ul>
+        <div class="burger_menu" onclick="show_hide()"> <!-- burger bar container -->
+          <div class="btn_burger_menu"><!-- burger bar  -->
+          </div>
+        </div>
+        <ul id="drop-content"> <!-- mobil ul menu / dropdown -->
+        </ul>
+      </nav>
     <div class="grid-container">
         <header class="header">
             <h1>Velkommen til Stoppestedet</h1>
